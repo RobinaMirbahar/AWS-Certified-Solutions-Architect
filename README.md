@@ -26,8 +26,10 @@ kubectl expose deployment hello-server \
           
 **Task 3: Set up an HTTP load balancer**
 
-cat << EOF > startup.sh
-#! /bin/bash
+cat 
+<< EOF > startup.sh
+#! 
+/bin/bash
 apt-get update
 apt-get install -y nginx
 service nginx start
